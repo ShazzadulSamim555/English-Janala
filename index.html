@@ -97,10 +97,72 @@
         </section>
 
         <!-- word container -->
-        <section id="word-container" class="bg-gray-200 w-11/12 mx-auto p-10 rounded-lg">
+        <section id="word-container"
+            class="bg-gray-200 w-11/12 mx-auto p-5 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-5">
+            <!-- <div class="bg-white p-5 rounded-lg text-center space-y-3">
+                <p class="text-2xl font-bold">Yellow</p>
+                <p>Meaning / pronounciation</p>
+                <p class="text-2xl font-semibold text-gray-700">হলুদ / ইয়েলো</p>
+                <div class="flex justify-between items-center">
+                    <div class="bg-gray-200 p-2 rounded-lg"><i class="fa-solid fa-circle-info"></i></div>
+                    <div class="bg-gray-200 p-2 rounded-lg"><i class="fa-solid fa-volume-high"></i></div>
+                </div>
+            </div> -->
 
+            <div class=" col-span-full text-center space-y-3 p-5">
+                <h4 class="font-bangla text-xl text-gray-600">আপনি এখন কোন Lesson Select করেন নি</h4>
+                <h3 class="font-bangla text-2xl font-bold">একটি Lesson Select করুন।</h3>
+            </div>
         </section>
     </main>
+
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div id="" class="modal-box">
+            <div id="word_container" class="space-y-6">
+                <!-- <div>
+                    <h3 class="text-3xl font-bold">Eager (<i class="fa-solid fa-microphone-lines"></i>   :ইগার)</h3>
+                </div>
+                <div class="text-xl space-y-3">
+                    <h4 class="text-xl font-semibold">Meaning</h4>
+                    <p>আগ্রহী</p>
+                </div>
+                <div class="text-xl space-y-3">
+                    <h5 class="text-xl font-semibold">Example</h5>
+                    <p>The kids were eager to open their gifts.</p>
+                </div>
+                <div class="space-y-3">
+                    <p class="text-xl font-semibold">সমার্থক শব্দ গুলো</p>
+                    <div class="flex gap-3">
+                        <p class="text-base bg-blue-50 px-3 py-1 rounded-lg">Enthusiastic</p>
+                        <p class="text-base bg-blue-50 px-3 py-1 rounded-lg">excited</p>
+                        <p class="text-base bg-blue-50 px-3 py-1 rounded-lg">keen</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-primary">Complete Learning</button>
+                </div> -->
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Eager (     :ইগার)
+Meaning
+আগ্রহী
+Example
+The kids were eager to open their gifts.
+সমার্থক শব্দ গুলো
+Enthusiastic
+excited
+keen
+Complete Learning -->
 
 
     <script src="index.js"></script>
